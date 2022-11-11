@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Ria's Bakery</h1> {/* TODO: personalize your bakery (if you want) */}
+      <h1>Welcome to my bakery!</h1> {/* TODO: personalize your bakery (if you want) */}
       <div class="row">
       <div class="Menu">
 
