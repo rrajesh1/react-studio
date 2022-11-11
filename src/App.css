@@ -7,3 +7,83 @@
 .BakeryItem {
   
 }
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+
+
+img {
+    width: 100%;
+    height: auto;
+    /* margin: 2vh 10%; */
+}
+
+button {
+    /* position: absolute;
+    bottom: 0; */
+    /* display: flex;
+    justify-content: right;
+    align-items: right; */
+    background-color: pink;
+    border-radius: 25px;
+
+}
+
+.bottom_row {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+
+.menu_item{
+    /* padding: 20px; */
+    /* text-align: center; */
+    width: 40%;
+    border-style: groove;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: blueviolet;
+    border-radius: 25px;
+}
+
+.menu_top {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cart_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.thick{
+    font-weight: bold;
+}
+
+
+
+
+.Menu {
+    align-items: left;
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+}
+
+.Cart {
+    float: left;
+    width: 30%;
+    padding: 1.5%
+}
